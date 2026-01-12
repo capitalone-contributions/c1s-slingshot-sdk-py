@@ -35,7 +35,8 @@ from slingshot import SlingshotClient
 
 # Initialize the client (uses SLINGSHOT_API_KEY environment variable)
 client = SlingshotClient()
-# If you want to pass your API key to the client without using the environment variable:
+
+# Alternatively, set the api_key when initializing the client:
 # client = SlingshotClient(api_key="your API key")
 
 # List projects
